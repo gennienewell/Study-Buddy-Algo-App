@@ -15,7 +15,14 @@ struct FlashCardSquare: View {
             Image(flashCard.image)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .foregroundColor(.white.opacity(0.7))
+                .overlay(alignment: .bottom) {
+                    Text(flashCard.name)
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .shadow(color: .black, radius: 3, x: 0, y: 0)
+                        .frame(maxWidth: 136)
+                        .padding()
+                }
                 //.scaledToFit()
                 
         }
@@ -28,6 +35,6 @@ struct FlashCardSquare: View {
 
 struct FlashCardSquare_Previews: PreviewProvider {
     static var previews: some View {
-        FlashCardSquare(flashCard: FlashCard.all[0])
+        FlashCardSquare(flashCard: FlashCard.all[2])
     }
 }
