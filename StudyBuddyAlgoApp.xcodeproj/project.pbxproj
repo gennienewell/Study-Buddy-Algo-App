@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0B7450C28FA342800AC432F /* StudyBuddyAlgoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450B28FA342800AC432F /* StudyBuddyAlgoAppApp.swift */; };
+		E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */; };
 		E0B7450E28FA342800AC432F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450D28FA342800AC432F /* ContentView.swift */; };
 		E0B7451028FA342800AC432F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7450F28FA342800AC432F /* Assets.xcassets */; };
 		E0B7451328FA342800AC432F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7451228FA342800AC432F /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		E0B7450828FA342800AC432F /* StudyBuddyAlgoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddyAlgoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0B7450B28FA342800AC432F /* StudyBuddyAlgoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyAlgoAppApp.swift; sourceTree = "<group>"; };
+		E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyAlgoApp.swift; sourceTree = "<group>"; };
 		E0B7450D28FA342800AC432F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0B7450F28FA342800AC432F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B7451228FA342800AC432F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,8 +51,10 @@
 		E0B7450A28FA342800AC432F /* StudyBuddyAlgoApp */ = {
 			isa = PBXGroup;
 			children = (
-				E0B7450B28FA342800AC432F /* StudyBuddyAlgoAppApp.swift */,
-				E0B7450D28FA342800AC432F /* ContentView.swift */,
+				E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */,
+				E0B7451B28FA352D00AC432F /* Views */,
+				E0B7451A28FA352A00AC432F /* ViewModels */,
+				E0B7451928FA352400AC432F /* Models */,
 				E0B7450F28FA342800AC432F /* Assets.xcassets */,
 				E0B7451128FA342800AC432F /* Preview Content */,
 			);
@@ -65,6 +67,36 @@
 				E0B7451228FA342800AC432F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0B7451928FA352400AC432F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E0B7451A28FA352A00AC432F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E0B7451B28FA352D00AC432F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7450D28FA342800AC432F /* ContentView.swift */,
+				E0B7451C28FA359A00AC432F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0B7451C28FA359A00AC432F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B7450E28FA342800AC432F /* ContentView.swift in Sources */,
-				E0B7450C28FA342800AC432F /* StudyBuddyAlgoAppApp.swift in Sources */,
+				E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
