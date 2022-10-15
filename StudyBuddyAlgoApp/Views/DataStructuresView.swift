@@ -13,6 +13,7 @@ struct DataStructuresView: View {
             Text("Data Structures")
                 .navigationTitle("Data Structures")
         }
+        .navigationViewStyle(.stack)
     }
 }
 

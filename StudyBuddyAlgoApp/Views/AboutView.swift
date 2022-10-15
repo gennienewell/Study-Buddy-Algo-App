@@ -13,6 +13,7 @@ struct AboutView: View {
             Text("About")
                 .navigationTitle("About")
         }
+        .navigationViewStyle(.stack)
     }
 }
 

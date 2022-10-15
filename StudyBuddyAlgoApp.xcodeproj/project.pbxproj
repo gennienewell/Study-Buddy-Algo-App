@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E057A42A28FA67F000DDDE16 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057A42928FA67F000DDDE16 /* FlashCardModel.swift */; };
 		E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */; };
 		E0B7450E28FA342800AC432F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450D28FA342800AC432F /* HomeView.swift */; };
 		E0B7451028FA342800AC432F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7450F28FA342800AC432F /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E057A42928FA67F000DDDE16 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
 		E0B7450828FA342800AC432F /* StudyBuddyAlgoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddyAlgoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyAlgoApp.swift; sourceTree = "<group>"; };
 		E0B7450D28FA342800AC432F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		E0B7451928FA352400AC432F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E057A42928FA67F000DDDE16 /* FlashCardModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				E0B7452928FA51D300AC432F /* DataStructuresView.swift in Sources */,
 				E0B7450E28FA342800AC432F /* HomeView.swift in Sources */,
+				E057A42A28FA67F000DDDE16 /* FlashCardModel.swift in Sources */,
 				E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */,
 				E0B7452728FA51AF00AC432F /* AlgoView.swift in Sources */,
 				E0B7452D28FA548200AC432F /* AboutView.swift in Sources */,

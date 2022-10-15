@@ -13,6 +13,7 @@ struct AlgoView: View {
             Text("Algorithms")
                 .navigationTitle("Algorithms")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
