@@ -10,8 +10,10 @@ import SwiftUI
 struct DataStructuresView: View {
     var body: some View {
         NavigationView {
-            Text("Data Structures")
-                .navigationTitle("Data Structures")
+            List(FlashCard.all) { FC in
+                Text(FC.name)
+                    .navigationTitle("Data Structures")
+            }
         }
         .navigationViewStyle(.stack)
     }

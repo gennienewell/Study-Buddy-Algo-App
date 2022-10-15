@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E057A42A28FA67F000DDDE16 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057A42928FA67F000DDDE16 /* FlashCardModel.swift */; };
+		E057A43028FB3D5800DDDE16 /* FlashCardSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057A42F28FB3D5800DDDE16 /* FlashCardSquare.swift */; };
 		E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */; };
 		E0B7450E28FA342800AC432F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450D28FA342800AC432F /* HomeView.swift */; };
 		E0B7451028FA342800AC432F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7450F28FA342800AC432F /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E057A42928FA67F000DDDE16 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
+		E057A42F28FB3D5800DDDE16 /* FlashCardSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardSquare.swift; sourceTree = "<group>"; };
 		E0B7450828FA342800AC432F /* StudyBuddyAlgoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddyAlgoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyAlgoApp.swift; sourceTree = "<group>"; };
 		E0B7450D28FA342800AC432F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		E0B7451C28FA359A00AC432F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E057A42F28FB3D5800DDDE16 /* FlashCardSquare.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B7452928FA51D300AC432F /* DataStructuresView.swift in Sources */,
+				E057A43028FB3D5800DDDE16 /* FlashCardSquare.swift in Sources */,
 				E0B7450E28FA342800AC432F /* HomeView.swift in Sources */,
 				E057A42A28FA67F000DDDE16 /* FlashCardModel.swift in Sources */,
 				E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */,

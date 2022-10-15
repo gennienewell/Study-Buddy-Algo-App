@@ -7,7 +7,7 @@
 
 import SwiftUI
 //import Firebase or FirebaseCore //Needed after Firbase DB is Created.
-//App Entry Point.
+
 @main
 struct StudyBuddyAlgoApp: App {
     
