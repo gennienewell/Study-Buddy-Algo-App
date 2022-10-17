@@ -19,18 +19,18 @@ struct FlashCardGrid: View {
                 .opacity(0.7)
                 
                 Spacer()
-                
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 160),spacing: 15)],spacing:15, content: {
-                    ForEach(flashCards){ fC in
-                        FlashCardSquare(flashCard: fC)
-                        
-                    }
-                })
-                                    
-                                    
-                                    
-                                    
             }
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 160),spacing: 15)],spacing:15, content: {
+                
+                ForEach(flashCards){ fC in
+                    NavigationLink(destination: FlashCardDetailView(flashCard: fC)) {
+                        FlashCardSquare(flashCard: fC)
+                    }
+                   
+                }
+                
+            })
+            .padding(.top)
         }
         .padding(.horizontal)
     }
@@ -38,6 +38,9 @@ struct FlashCardGrid: View {
 
 struct FlashCardGrid_Previews: PreviewProvider {
     static var previews: some View {
-        FlashCardGrid(flashCards: FlashCard.all)
+        ScrollView {
+            FlashCardGrid(flashCards: FlashCard.all)
+        }
     }
 }
+

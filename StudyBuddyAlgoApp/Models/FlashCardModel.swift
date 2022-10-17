@@ -22,6 +22,23 @@ extension FlashCard{
         
         FlashCard(name: "BFS", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
         
-        FlashCard(name: "BinarySearch", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):")
+        FlashCard(name: "BinarySearch", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "DFS2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BFS2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BinarySearch2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        FlashCard(name: "DFS", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BFS", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BinarySearch", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "DFS2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BFS2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):"),
+        
+        FlashCard(name: "BinarySearch2", image: "code", description: "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", code: " def dfs(root):")
     ]
 }
