@@ -2,7 +2,7 @@
 //  FlashCardDetailView.swift
 //  StudyBuddyAlgoApp
 //
-//  Created by Gennie Newell on 10/17/22.
+//  Created by Gennie Newell on 6/17/22.
 //
 
 import SwiftUI
@@ -27,7 +27,7 @@ struct FlashCardDetailView: View {
                 }
                 
                 VStack(alignment: .leading, spacing: 30){
-                    Text(flashCard.code)
+                    Image(flashCard.code)
                 }
                 
             }
