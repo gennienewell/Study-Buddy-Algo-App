@@ -16,6 +16,7 @@ struct AboutView: View {
                 Text("\(FlashCard.about)")
                     .navigationTitle("About")
                     .foregroundColor(Color.white)
+                    .padding()
             }
             .ignoresSafeArea()
             
