@@ -12,7 +12,6 @@
 		E057A43228FCCB6C00DDDE16 /* FlashCardGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057A43128FCCB6C00DDDE16 /* FlashCardGrid.swift */; };
 		E057A43528FDCF9700DDDE16 /* FlashCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057A43428FDCF9700DDDE16 /* FlashCardDetailView.swift */; };
 		E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */; };
-		E0B7450E28FA342800AC432F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7450D28FA342800AC432F /* HomeView.swift */; };
 		E0B7451028FA342800AC432F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7450F28FA342800AC432F /* Assets.xcassets */; };
 		E0B7451328FA342800AC432F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7451228FA342800AC432F /* Preview Assets.xcassets */; };
 		E0B7451E28FA3D2C00AC432F /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0B7451D28FA3D2C00AC432F /* GoogleService-Info-2.plist */; };
@@ -20,7 +19,7 @@
 		E0B7452328FA3EAF00AC432F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E0B7452228FA3EAF00AC432F /* FirebaseFirestoreSwift */; };
 		E0B7452728FA51AF00AC432F /* AlgoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7452628FA51AF00AC432F /* AlgoView.swift */; };
 		E0B7452928FA51D300AC432F /* DataStructuresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7452828FA51D300AC432F /* DataStructuresView.swift */; };
-		E0B7452B28FA520100AC432F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7452A28FA520100AC432F /* TabBar.swift */; };
+		E0B7452B28FA520100AC432F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7452A28FA520100AC432F /* TabBarView.swift */; };
 		E0B7452D28FA548200AC432F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7452C28FA548200AC432F /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +30,12 @@
 		E057A43428FDCF9700DDDE16 /* FlashCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardDetailView.swift; sourceTree = "<group>"; };
 		E0B7450828FA342800AC432F /* StudyBuddyAlgoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddyAlgoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B7450B28FA342800AC432F /* StudyBuddyAlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyAlgoApp.swift; sourceTree = "<group>"; };
-		E0B7450D28FA342800AC432F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E0B7450F28FA342800AC432F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B7451228FA342800AC432F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0B7451D28FA3D2C00AC432F /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		E0B7452628FA51AF00AC432F /* AlgoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoView.swift; sourceTree = "<group>"; };
 		E0B7452828FA51D300AC432F /* DataStructuresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresView.swift; sourceTree = "<group>"; };
-		E0B7452A28FA520100AC432F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E0B7452A28FA520100AC432F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E0B7452C28FA548200AC432F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,8 +116,7 @@
 		E0B7451B28FA352D00AC432F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E0B7450D28FA342800AC432F /* HomeView.swift */,
-				E0B7452A28FA520100AC432F /* TabBar.swift */,
+				E0B7452A28FA520100AC432F /* TabBarView.swift */,
 				E0B7452828FA51D300AC432F /* DataStructuresView.swift */,
 				E0B7452628FA51AF00AC432F /* AlgoView.swift */,
 				E0B7452C28FA548200AC432F /* AboutView.swift */,
@@ -220,12 +217,11 @@
 				E057A43228FCCB6C00DDDE16 /* FlashCardGrid.swift in Sources */,
 				E0B7452928FA51D300AC432F /* DataStructuresView.swift in Sources */,
 				E057A43028FB3D5800DDDE16 /* FlashCardSquare.swift in Sources */,
-				E0B7450E28FA342800AC432F /* HomeView.swift in Sources */,
 				E057A42A28FA67F000DDDE16 /* FlashCardModel.swift in Sources */,
 				E0B7450C28FA342800AC432F /* StudyBuddyAlgoApp.swift in Sources */,
 				E0B7452728FA51AF00AC432F /* AlgoView.swift in Sources */,
 				E0B7452D28FA548200AC432F /* AboutView.swift in Sources */,
-				E0B7452B28FA520100AC432F /* TabBar.swift in Sources */,
+				E0B7452B28FA520100AC432F /* TabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

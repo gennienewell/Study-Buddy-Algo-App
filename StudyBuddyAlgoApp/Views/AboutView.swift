@@ -9,9 +9,16 @@ import SwiftUI
 
 struct AboutView: View {
     var body: some View {
+        
         NavigationView {
-            Text("About")
-                .navigationTitle("About")
+            ZStack {
+                Color.blue
+                Text("\(FlashCard.about)")
+                    .navigationTitle("About")
+                    .foregroundColor(Color.white)
+            }
+            .ignoresSafeArea()
+            
         }
         .navigationViewStyle(.stack)
     }

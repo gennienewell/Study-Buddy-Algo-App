@@ -10,20 +10,20 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView {
-
+            // Data Structures Page
             DataStructuresView()
                 .tabItem {
-                    Label("DataStructures", systemImage: "house")
+                    Label("Data Structures", systemImage: "tray")
                 }
-            
+            // Alogorithms Page
             AlgoView()
                 .tabItem {
-                    Label("Algorithms", systemImage: "house")
+                    Label("Algorithms", systemImage: "brain.head.profile")
                 }
-            
+            // About Section page
             AboutView()
                 .tabItem {
-                    Label("About", systemImage: "house")
+                    Label("About", systemImage: "questionmark")
                 }
         }
     }

@@ -11,8 +11,10 @@ struct DataStructuresView: View {
     var body: some View {
         NavigationView {
             ScrollView {
+                //Creates Flash Card Grid and Passes a Static Array 
                 FlashCardGrid(flashCards: FlashCard.all)
-            }.navigationTitle("Flash Cards")
+            }
+            .navigationTitle("Study Buddy Algo")
         }
         .navigationViewStyle(.stack)
     }
