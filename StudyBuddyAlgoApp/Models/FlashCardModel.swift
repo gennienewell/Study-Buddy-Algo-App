@@ -43,7 +43,7 @@ extension FlashCard{
 // Creates a Static array that holds objects of DS that all instances have access to
 extension FlashCard{
     static let algoArr: [FlashCard] = [
-        FlashCard(name: "Merge Sort", image: "code", description: "A merge sort is a more complex sort, but also a highly efficient one. A merge sort uses a technique called divide and conquer. The list is repeatedly divided into two until all the elements are separated individually. Pairs of elements are then compared, placed into order and combined.", code: "code"),
+        FlashCard(name: "Merge Sort", image: "code", description: "A merge sort is a more complex sort, but also a highly efficient one. A merge sort uses a technique called divide and conquer. The list is repeatedly divided into two until all the elements are separated individually. Pairs of elements are then compared, placed into order and combined.", code: "ms"),
         
         FlashCard(name: "BFS", image: "code", description: "Breadth First Search (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration..", code: "bfs"),
         
@@ -53,10 +53,10 @@ extension FlashCard{
         
         FlashCard(name: "QuickSort", image: "code", description: "Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot..", code: "code"),
         
-        FlashCard(name: "Union Find", image: "code", description: "Is a data structure that categorizes objects into different sets and lets checking out if two objects belong to the same set.", code: "code"),
+        FlashCard(name: "Union Find", image: "code", description: "Is a data structure that categorizes objects into different sets and lets checking out if two objects belong to the same set.", code: "uf"),
         
         FlashCard(name: "Flood Fill", image: "code", description: "Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array.", code: "code"),
         
-        FlashCard(name: "Topological Sort", image: "code", description: "The topological sort algorithm takes a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.", code: "code")
+        FlashCard(name: "Topological Sort", image: "code", description: "The topological sort algorithm takes a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.", code: "top")
     ]
 }

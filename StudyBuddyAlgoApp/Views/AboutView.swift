@@ -12,10 +12,10 @@ struct AboutView: View {
         
         NavigationView {
             ZStack {
-                Color.blue
+                Color.white
                 Text("\(FlashCard.about)")
-                    .navigationTitle("About")
-                    .foregroundColor(Color.white)
+                    .navigationTitle("About Section")
+                    .foregroundColor(Color.black)
                     .padding()
             }
             .ignoresSafeArea()
