@@ -2,7 +2,7 @@
 //  AboutView.swift
 //  StudyBuddyAlgoApp
 //
-//  Created by Gennie Newell on 6/14/22.
+//  Created by Gennie Newell on 10/14/22.
 //
 
 import SwiftUI
@@ -14,7 +14,7 @@ struct AboutView: View {
             ZStack {
                 Color.white
                 Text("\(FlashCard.about)")
-                    .navigationTitle("About Section")
+                    .navigationTitle("About Us")
                     .foregroundColor(Color.black)
                     .padding()
             }

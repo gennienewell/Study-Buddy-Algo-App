@@ -23,7 +23,6 @@ struct FlashCardSquare: View {
                         .frame(maxWidth: 136)
                         .padding()
                 }
-                //.scaledToFit()
                 
         }
         .frame(width: 160, height: 217, alignment: .top)
