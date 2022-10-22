@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
-//import Firebase or FirebaseCore //Needed after Firbase DB is Created.
+// Import Firebase or FirebaseCore Needed after Firbase DB
 
 @main
 struct StudyBuddyAlgoApp: App {
     
-    //Needed after Firbase DB is Created.
-    //init(){
+    // Needed after Firbase DB is Created.
+    // init(){
     //    FirebaseApp.configure()
-    //}
+    // }
     
     var body: some Scene {
         WindowGroup {

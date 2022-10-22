@@ -26,9 +26,7 @@ struct FlashCardGrid: View {
                     NavigationLink(destination: FlashCardDetailView(flashCard: fC)) {
                         FlashCardSquare(flashCard: fC)
                     }
-                   
                 }
-                
             })
             .padding(.top)
         }

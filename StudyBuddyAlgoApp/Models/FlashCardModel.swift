@@ -16,7 +16,7 @@ struct FlashCard: Identifiable{
 }
 
 extension FlashCard{
-    static let about = "Study Buddy Algo app is a study tool that is used to increase your knowledge of data structures and algorithms."
+    static let about = "Study Buddy Algo is a study tool that is used to increase your knowledge of data structures and algorithms."
 }
 
 // Creates a Static array that holds objects of DS that all instances have access to
@@ -31,7 +31,7 @@ extension FlashCard{
         
         FlashCard(name: "Linked Lists", image: "code", description: "A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. Also, data elements whose order is not given by their physical placement in memory.", code: "ll"),
         
-        FlashCard(name: "Graphs", image: "code", description: "A graph is an abstract data type that can be used to represent complex, non-linear relationships between objects.", code: "code"),
+        FlashCard(name: "Graphs", image: "code", description: "A graph is an abstract data type that can be used to represent complex, non-linear relationships between objects.", code: "graph"),
         
         FlashCard(name: "Hash Tables", image: "code", description: "A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array.", code: "ht"),
         
