@@ -1,0 +1,50 @@
+[
+  {
+        "id": 1001
+        "name": "Arrays",
+        "image": "code",
+        "description": "An array is a collection of items of same data type stored at contiguous memory locations. ",
+        "code": "array"
+    },
+
+    {
+        "id": 1002
+        "name": "Queues",
+        "image": "code",
+        "description": "A Queue is a conceptual structure consisting of a set of homogeneous elements and is based on the principle of first in first out (FIFO).",
+        "code": "q"
+
+    },
+    {
+        "id": 1003
+        "name": "Linked Lists",
+        "image": "code",
+        "description": "A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. Also, data elements whose order is not given by their physical placement in memory.",
+        "code": "ll"
+    },
+
+    {
+        "id": 1004
+        "name": "Graphs",
+        "image": "code",
+        "description": "A graph is an abstract data type that can be used to represent complex, non-linear relationships between objects.",
+        "code": "graph"
+    },
+
+    {
+        "id": 1005
+        "name": "Hash Tables",
+        "image": "code",
+        "description": "A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array.",
+        "code": "ht"
+    },
+
+    {
+        "id": 1006
+        "name": "Tries",
+        "image": "code",
+        "description": "Tries (also known as radix trees or prefix trees) are tree-based data structures that are typically used to store associative arrays where the keys are usually strings.",
+        "code": "trie"
+    }
+
+]

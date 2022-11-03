@@ -19,6 +19,7 @@ struct StudyBuddyAlgoApp: App {
     var body: some Scene {
         WindowGroup {
             TabBar()
+                .environmentObject(ContentModel())
         }
     }
 }

@@ -8,20 +8,22 @@
 import SwiftUI
 
 struct DataStructuresView: View {
+    @EnvironmentObject var cm : ContentModel
+    
     var body: some View {
-        NavigationView {
-            ScrollView {
-                //Creates Flash Card Grid and Passes a Static Array 
-                FlashCardGrid(flashCards: FlashCard.all)
+            NavigationView {
+                ScrollView {
+                    //Creates Flash Card Grid and Passes a Static Array
+                    FlashCardGrid(flashCards: FlashCard.all)
+                }
+                .navigationTitle("Study Buddy Algo")
             }
-            .navigationTitle("Study Buddy Algo")
+            .navigationViewStyle(.stack)
         }
-        .navigationViewStyle(.stack)
     }
-}
 
-struct DataStructuresView_Previews: PreviewProvider {
-    static var previews: some View {
-        DataStructuresView()
+    struct DataStructuresView_Previews: PreviewProvider {
+        static var previews: some View {
+            DataStructuresView()
+        }
     }
-}
