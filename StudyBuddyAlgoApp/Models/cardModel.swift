@@ -8,8 +8,8 @@
 import Foundation
 
 
-struct Card: Identifiable, Decodable{
-    var id : Int
+class Card: Identifiable, Codable{
+    var id:UUID?
     var name: String
     var image: String
     var description: String

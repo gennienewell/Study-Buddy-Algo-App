@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct AlgoView: View {
+    // Import ContentModel EnvObj as cm
+    @EnvironmentObject var cm : ContentModel
+    
     var body: some View {
         NavigationView {
             ScrollView {
-                //Creates Flash Card Grid and Passes a Static Array of FC
-                FlashCardGrid(flashCards: FlashCard.algoArr)
+                FlashCardGrid(flashCards: cm.Card_A)
             }
             .navigationTitle("Algorithms")
         }

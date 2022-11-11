@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct FlashCardGrid: View {
-    var flashCards: [FlashCard]
+    
+    //Array of flash card data passed in from Parent View
+    var flashCards: [Card]
     
     var body: some View {
         VStack {
@@ -21,9 +23,11 @@ struct FlashCardGrid: View {
                 Spacer()
             }
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 160),spacing: 15)],spacing:15, content: {
-                
+                // loops through FL array
                 ForEach(flashCards){ fC in
+                    //Sends to destination page by creating Detailview
                     NavigationLink(destination: FlashCardDetailView(flashCard: fC)) {
+                        // Creates FC SQ as button
                         FlashCardSquare(flashCard: fC)
                     }
                 }
@@ -34,11 +38,4 @@ struct FlashCardGrid: View {
     }
 }
 
-struct FlashCardGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        ScrollView {
-            FlashCardGrid(flashCards: FlashCard.all)
-        }
-    }
-}
 

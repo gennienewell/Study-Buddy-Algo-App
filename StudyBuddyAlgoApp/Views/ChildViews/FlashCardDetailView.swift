@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct FlashCardDetailView: View {
-    var flashCard: FlashCard
+    // Passed in a Flash card as property
+    var flashCard: Card
     
     var body: some View {
         ScrollView {
@@ -37,8 +38,6 @@ struct FlashCardDetailView: View {
     }
 }
 
-struct FlashCardDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        FlashCardDetailView(flashCard: FlashCard.all[0])
-    }
-}
+
+
+

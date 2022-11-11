@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FlashCardSquare: View {
-    var flashCard: FlashCard
+    var flashCard: Card
     
     var body: some View {
         VStack {
@@ -32,8 +32,4 @@ struct FlashCardSquare: View {
     }
 }
 
-struct FlashCardSquare_Previews: PreviewProvider {
-    static var previews: some View {
-        FlashCardSquare(flashCard: FlashCard.all[2])
-    }
-}
+

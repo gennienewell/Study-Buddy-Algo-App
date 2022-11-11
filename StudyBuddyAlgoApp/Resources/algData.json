@@ -1,0 +1,47 @@
+[
+  {
+        "name": "Merge Sort",
+        "image": "code",
+        "description": "A merge sort is a more complex sort, but also a highly efficient one. A merge sort uses a technique called divide and conquer. The list is repeatedly divided into two until all the elements are separated individually. Pairs of elements are then compared, placed into order and combined.",
+        "code": "ms"
+    },
+    {
+        "name": "BFS",
+        "image": "code",
+        "description": "Breadth First Search (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration..",
+        "code": "bfs"
+    },
+    {
+        "name": "Binary Search",
+        "image": "code",
+        "description": "Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one. .",
+        "code": "BS"
+
+    },
+    {
+        "name": "DFS",
+        "image": "code",
+        "description": "The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.",
+        "code": "dfs"
+    },
+    {
+        "name": "Union Find",
+        "image": "code",
+        "description": "Is a data structure that categorizes objects into different sets and lets checking out if two objects belong to the same set.",
+        "code": "uf"
+    },
+    {
+        "name": "Flood Fill",
+        "image": "code",
+        "description": "Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array.",
+        "code": "flood"
+    },
+    {
+        "name": "Topological Sort",
+        "image": "code",
+        "description": "The topological sort algorithm takes a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.",
+        "code": "top"
+    }
+
+]
+

@@ -11,31 +11,48 @@ import Foundation
 class ContentModel: ObservableObject{
     
     @Published var Cards = [Card]()
+    @Published var Card_A = [Card]()
     
+    //
     init(){
-        getLocalData()
+        // Calls get local Data methods
+        self.Cards = getLocalData(arg: "dsData")
+        self.Card_A = getLocalData(arg: "algData")
     }
     
-    func getLocalData() {
+    func getLocalData(arg data:String) -> [Card]{
         
-        // Get a url to the json file
-        let jsonUrl = Bundle.main.url(forResource: "data", withExtension: "json")
+        // Get a url to the json file in main bundle
+        let pathString = Bundle.main.path(forResource: data, ofType: "json")
         
-        do {
-            // Read the file into a data object
-            let jsonData = try Data(contentsOf: jsonUrl!)
+        // checks pathString for value and then Creates URL object
+        if let path = pathString{
             
-            // Try to decode the json into an array of fc
-            let jsonDecoder = JSONDecoder()
-            let c = try jsonDecoder.decode([Card].self, from: jsonData)
+            let url = URL(fileURLWithPath: path)
             
-            // Assign parsed flashcards to fc property
-            self.Cards = c
+            do{
+                // Create a data object with the data from the url
+                let datafrmUrl = try Data(contentsOf: url)
+                
+                // Parse the data
+                
+                let decoder = JSONDecoder()
+                let cardData = try decoder.decode([Card].self, from: datafrmUrl)
+                
+                // Give ID's to each card
+                for c in cardData{
+                    
+                    c.id = UUID()
+                }
+                
+                // return Decoded data to property
+                return cardData
+            }
+            catch{
+                print(error)
+            }
         }
-        catch {
-            // TODO log error
-            print("Couldn't parse local data")
-        }
+        return [Card]()
     }
     
 }

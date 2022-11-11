@@ -20,7 +20,7 @@ struct TabBar: View {
                 .tabItem {
                     Label("Algorithms", systemImage: "brain.head.profile")
                 }
-            // About Section page
+            // About Section Page
             AboutView()
                 .tabItem {
                     Label("About", systemImage: "questionmark")

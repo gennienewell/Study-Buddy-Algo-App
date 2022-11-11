@@ -6,20 +6,21 @@
 //
 
 import SwiftUI
-// Import Firebase or FirebaseCore Needed after Firbase DB
+//Import Firebase
 
 @main
 struct StudyBuddyAlgoApp: App {
     
-    // Needed after Firbase DB is Created.
     // init(){
     //    FirebaseApp.configure()
     // }
     
+    @StateObject var CM = ContentModel()
+   
     var body: some Scene {
         WindowGroup {
             TabBar()
-                .environmentObject(ContentModel())
+                .environmentObject(CM)
         }
     }
 }

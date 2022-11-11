@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct AboutView: View {
+   
     var body: some View {
-        
         NavigationView {
-            ZStack {
-                Color.white
-                Text("\(FlashCard.about)")
-                    .navigationTitle("About Us")
-                    .foregroundColor(Color.black)
-                    .padding()
+            VStack {
+                ZStack {
+                    Color.white
+                    Text("\(FlashCard.about)")
+                        .navigationTitle("About Us")
+                        .foregroundColor(Color.black)
+                        .padding()
+                    
+                }
+                .ignoresSafeArea()
             }
-            .ignoresSafeArea()
-            
         }
         .navigationViewStyle(.stack)
     }

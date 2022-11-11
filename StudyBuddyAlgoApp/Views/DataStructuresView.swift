@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct DataStructuresView: View {
+    
+    // Import ContentModel EnvObj as cm
     @EnvironmentObject var cm : ContentModel
     
     var body: some View {
             NavigationView {
                 ScrollView {
-                    //Creates Flash Card Grid and Passes a Static Array
-                    FlashCardGrid(flashCards: FlashCard.all)
+                    FlashCardGrid(flashCards: cm.Cards)
                 }
-                .navigationTitle("Study Buddy Algo")
+                .navigationTitle("Data Structures")
             }
             .navigationViewStyle(.stack)
         }
