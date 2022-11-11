@@ -1,44 +1,44 @@
 [
   {
         "name": "Arrays",
-        "image": "code",
+        "image": "code6",
         "description": "An array is a collection of items of same data type stored at contiguous memory locations. ",
         "code": "array"
     },
     {
         "name": "Stacks",
-        "image": "code",
+        "image": "code7",
         "description": "A stack is a conceptual structure consisting of a set of homogeneous elements and is based on the principle of last in first out (LIFO).",
         "code": "Stack"
     },
     {
         "name": "Queues",
-        "image": "code",
+        "image": "code8",
         "description": "A Queue is a conceptual structure consisting of a set of homogeneous elements and is based on the principle of first in first out (FIFO).",
         "code": "q"
 
     },
     {
         "name": "Linked Lists",
-        "image": "code",
+        "image": "code1",
         "description": "A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. Also, data elements whose order is not given by their physical placement in memory.",
         "code": "ll"
     },
 
     {
         "name": "Graphs",
-        "image": "code",
+        "image": "code3",
         "description": "A graph is an abstract data type that can be used to represent complex, non-linear relationships between objects.",
         "code": "graph"
     },
     {
-        "name": "Hash Tables",
+        "name": "Hash Tables5",
         "image": "code",
         "description": "A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array.",
         "code": "ht"
     },
     {
-        "name": "Tries",
+        "name": "Tries2",
         "image": "code",
         "description": "Tries (also known as radix trees or prefix trees) are tree-based data structures that are typically used to store associative arrays where the keys are usually strings.",
         "code": "trie"
